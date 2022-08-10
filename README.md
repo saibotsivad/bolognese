@@ -24,9 +24,9 @@ Finally, delete everything above these dashes:
 
 ---
 
-# {{TODO_REPO_NAME}}
+# Bolognese
 
-{{TODO_DESCRIPTION}}
+[WIP] Tasty pre-cooked configuration for [Ragu](https://github.com/saibotsivad/ragu), the static site generator. 
 
 ## Example
 
@@ -40,4 +40,4 @@ Describe api
 
 Published and released under the [Very Open License](http://veryopenlicense.com).
 
-If you need a commercial license, [contact me here](https://davistobias.com/license?software={{TODO_REPO_NAME}}).
+If you need a commercial license, [contact me here](https://davistobias.com/license?software=bolognese).
