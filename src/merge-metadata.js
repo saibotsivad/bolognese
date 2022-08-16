@@ -1,4 +1,4 @@
-import dlv from 'dlv' // TODO or is it {dlv} ?
+import dlv from 'dlv'
 
 export const mergeMetadata = (sitewideProperties, collections) => ({ filepathToMetadata }) => {
 	const merged = {

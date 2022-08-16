@@ -23,7 +23,7 @@ export default (opts = {}) => {
 		output: opts.output,
 		filter: filepath => (opts.files || defaultFilterRegex).test(filepath),
 		read: opts.ragu?.read || readStreamToMemory,
-		parse: opts.ragu?.parse || parseAsYaml(opts.normalize || metadataNormalizer),
+		parse: opts.ragu?.parse || parseAsYaml(opts.normalize || metadataNormalizer, opts.yaml),
 		merge: mergeMetadata(opts.site || {}, opts.collections || defaultCollections),
 		render: ({ filepath, content, metadata, site }, callback) => {
 			if (isNotRenderable(metadata)) return callback()

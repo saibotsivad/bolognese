@@ -43,7 +43,7 @@
   "homepage": "https://github.com/saibotsivad/bolognese",
   "devDependencies": {
     "@saibotsivad/eslint-config-saibotsivad": "*",
-    "ragu": "^1.0.0"
+    "ragu": "^1.0.1"
   },
   "dependencies": {
     "@saibotsivad/blockdown": "^3.0.0",
